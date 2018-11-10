@@ -56,6 +56,7 @@ public abstract class PermissionUtils {
 
         private static final String ARGUMENT_FINISH_ACTIVITY = "finish";
 
+
         private boolean mFinishActivity = false;
 
         /**
