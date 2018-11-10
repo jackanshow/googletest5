@@ -58,7 +58,7 @@ public class MyLocationDemoActivity extends AppCompatActivity
         setContentView(R.layout.navigation_draw);
 
         SupportMapFragment mapFragment =
-                (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+                (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.maps);
         mapFragment.getMapAsync(this);
 
 

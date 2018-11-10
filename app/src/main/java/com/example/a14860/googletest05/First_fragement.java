@@ -17,7 +17,7 @@ public class First_fragement extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        myView = inflater.inflate(R.layout.marker_demo,container,false );
-        return super.onCreateView(inflater, container, savedInstanceState);
+        myView = inflater.inflate(R.layout.first_layout,container,false );
+        return myView;
     }
 }

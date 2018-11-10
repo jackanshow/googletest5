@@ -90,13 +90,21 @@ public class NavigationDraw extends AppCompatActivity
             // Handle the camera action
 
             fragmentManager.beginTransaction()
-                    .replace(R.id.map
+                    .replace(R.id.content_frame
                           , new First_fragement())
                     .commit();
 
         } else if (id == R.id.nav_labeling_layout) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame
+                            , new First_fragement())
+                    .commit();
 
         } else if (id == R.id.nav_bus_layout) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame
+                            , new First_fragement())
+                    .commit();
 
         } else if (id == R.id.nav_favorite_layout) {
 
